@@ -1,0 +1,9 @@
+body {
+    background-image: linear-gradient(to left , blue, cyan );   
+}
+
+p {
+    color: rgba(216, 216, 35, 0.856);
+    font-size: 35px;
+
+}
