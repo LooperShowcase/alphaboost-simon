@@ -1,41 +1,58 @@
 body {
-    background-image: linear-gradient(to left , blue, cyan );   
+  background-image: linear-gradient(to left, blue, cyan);
 }
 
 p {
-    color: rgba(216, 216, 35, 0.856);
-    font-size: 35px;
-
+  color: rgba(216, 216, 35, 0.856);
+  font-size: 35px;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(240, 22, 22);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(11, 226, 65);
-  }
-  
-  .active {
-    background-color: #78f115;
- }
- #myBox{
-     width: 200px;
-     height: 200px;
-     background-color: ;
- }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(240, 22, 22);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(11, 226, 65);
+}
+
+.active {
+  background-color: #78f115;
+}
+#myBox {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+#myfloat {
+  float: right;
+}
+#profilepic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  float: right;
+}
+footer
+{
+text-align:center;
+background-color: rgb(20, 220, 120) ;
+position: fixed;
+bottom: 0px;
+width: 100%;
+}
